@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Dilivery Services|foody.com</title>
+    <link rel="stylesheet" href="/static/project2.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/static/img/logo.jpg" alt="foody.com">
+        </div>
+        <ul>
+            <li class="item"><a href="/">Home</a></li>
+            <li class="item"><a href="/services">Services</a></li>
+            <li class="item"><a href="/about">About Us</a></li>
+            <li class="item"><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- nav ka kam khtm -->
+    <!-- now <section></section> -->
+    <section id="home">
+        <h1 id="hp1" class="h-primary">Welocome to foody.com </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, repudiandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sequi.</p>
+        <button class="btn"> <a href="/order">Place Oredr</a> </button>
+    </section>
+
+    <section class="servise-container">
+        <h1 class="h-primary center"> Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/static/img/pizza.jpg" alt="img.food">
+                <h2 class="h-secondary center">Food Odering</h2>
+                <p class="center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam voluptatem possimus magni omnis aspernatur iusto eius voluptates cupiditate labore vitae odit, voluptate enim modi exercitationem in vel. Odio eius quo aspernatur, dolores sint animi?<p>
+            </div>
+            <div class="box">
+                <img src="/static/img/bulk order.jpg" alt="img.food">
+                <h2 class="h-secondary center"> Bulk Odering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut non, tempore cum ducimus id neque inventore iusto vitae assumenda itaque porro, molestiae repudiandae accusantium quasi odio dignissimos delectus quaerat. Minus perspiciatis cum vero aliquam corrupti numquam, laudantium voluptate illum quibusdam doloremque inventore nostrum, sint explicabo quod eveniet consectetur sequi fugit.</p>
+            </div>
+            <div class="box">
+                <img src="/static/img/dilivery boy.jpg" alt="img.food">
+                <h2 class="h-secondary center">Home Delivery</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur assumenda tempora amet saepe deserunt facilis repellat, perspiciatis voluptatibus maxime dolorem iusto iste non, eos ut ipsum tenetur doloremque illo doloribus!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Cliets</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="/static/img/logo1.jpg" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="/static/img/logo2.jpg" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="/static/img/logo3.jpg" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="/static/img/logo4.jpg" alt="Our Client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center"> Oredr Now</h1>
+        <div id="contact-box", method="post">
+           form(action= "/order", method= "post", class="myForm")
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Etnter The Name">
+            </div>
+            <div class="form-group">
+                <label for="name">Email:</label>
+                <input type="text" name="adress" id="adress" placeholder="Etnter The adress">
+            </div>
+            <div class="form-group">
+                <label for="name">Phone Number:</label>
+                <input type="phone" name="phone" id="Phone" placeholder="Enter The Phone">
+            </div>
+            <div class="form-group">
+                <label for="name">Order:</label>
+                <textarea name="order" id="order" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn"> Submit </button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.foody.com. All Right Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
